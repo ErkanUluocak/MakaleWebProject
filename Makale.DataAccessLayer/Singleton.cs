@@ -8,6 +8,7 @@ namespace Makale.DataAccessLayer
 {
     public static class Singleton
     {
+        //DatabaseContext nesnesini bir defa oluşturmak için
         private static DatabaseContext db;
         private static object lockobj = new object();
 
